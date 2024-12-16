@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search Engine</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="loginpopupstyle.css">
+</head>
+<body>
+<h1>Image Search Engine</h1>
+<form id="search-form">
+  <input type="text" id="search-box" placeholder="Search anything here...">
+  <button>Search</button>
+</form >
+<div id="search-result"></div>
+<button id="show-more-btn">Show more</button>
+
+
+<div class="popup-window hidden">
+  <div class="popup-container">
+    <i id="close-icon" class="fa-regular fa-circle-xmark"></i>
+    <h1 class="imgsearch"> WELCOME TO IMAGE SEARCH ENGINE</h1>
+    <p id="email-para">Email</p>
+    <input type="email" id="email" >
+    <p id="password-para">Password</p>
+    <input type="password" id="password" >
+    <div class="forgotpass">
+      <div id="remember-me">
+        <input type="checkbox"><span id="remember-me">Remember me</span>
+      </div>
+      <p id="forgot-pass">Forgot password</p>
+
+    </div>
+    <button id="signin">Sign in</button>
+    <button id="with-google"> Sign in with Google</button>
+    <p id="dont-have">Don't have an account? <span id="signup-span">Sign up for free!</span></p>
+  </div>
+</div>
+<script src="loginpopupscript.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
